@@ -1,0 +1,705 @@
+@media (max-width: 1124px) {
+    
+    header.scrolling {
+        background-color: #ffffff;
+        box-shadow: 10px 10px 20px #0000000c;
+        padding: 10px 0%;
+    }
+    
+    header.scrolling .logo img {
+        height: 60px;
+    }
+    
+    header {
+        justify-content: space-between;
+        padding: 25px 0;
+        gap: 120px;
+    }
+
+    header.scrolling .menu li {
+        font-size: 18px; 
+    }
+
+    body {
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, #ffffff 100%);
+        background-attachment: fixed;
+        overflow-x: hidden;
+    }
+
+    .menu {
+        color: #754C29;
+        font-size: 18px;
+        gap: 7px;
+    }
+
+    .menu .home {
+        color: #754C29;
+    }
+
+    header .logo img {
+        height: 60px;
+    }
+    
+    header .menu li a {
+        padding: 0px 25px;
+        font-size: 20px;
+    }
+
+    .logo img {
+        padding: 0px 25px;
+    }
+
+    .banner img {
+        display: none;
+    }
+
+    .banner2 img {
+        position: absolute;
+        top: 370px;
+        height: 60%;
+        width: 100%;
+        object-fit: cover;
+        pointer-events: none;
+        justify-content: center;
+        opacity: 40%;
+        display: flex;
+    }
+
+    .banner3 img {
+        display: none;
+    }
+
+    .banner4 img {
+        position: absolute;
+        top: 1050px;
+        height: 1000%;
+        width: 100%;
+        object-fit: cover;
+        pointer-events: none;
+        justify-content: center;
+        opacity: 40%;
+        display: flex;
+    }
+
+    .kimchi {
+        display: none;
+    }
+
+    .logokoala img {
+        height: 500px;
+    }
+     
+    .conteudo_principal {
+        align-items: center;
+        padding: 15px;
+    }
+
+    .titulo {
+        font-size: 80px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .texto {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .btn-menu {
+        font-size: 15px;
+        padding: 25px 25px 25px;
+    }
+
+    .conteudo_secundario {
+        padding-right: 0;  
+    } 
+
+    .conteudo {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .cardapio {
+        padding-top: 100px;
+    }
+     
+    .card__img {
+        height: 320px;
+        width: 300px;
+        border-radius: 1.5rem;
+    }
+
+    
+    .card__data {
+        height: 270px;
+        width: 250px;
+        padding: 1.5rem 2rem;
+        position: absolute;
+        margin-inline: auto;
+        z-index: 2;
+    }
+
+    
+    .card__descricao {
+        display: block;
+        font-size: 11.5px;
+        font-weight: 600;
+        margin-bottom: .25rem;
+        font-family: 'Inter';
+        line-height: 200%;
+        color: #ffffff;
+        text-align: justify;
+    }
+  
+      
+    .card__titulo {
+        font-size: 19px;
+        font-weight: 400;
+        color: var(--title-color);
+        margin-bottom: .75rem;
+        font-family: 'FredokaOne';
+        color: rgb(255, 248, 241);
+    }
+
+    .taste h3 {
+        font-size: 15px;
+    }
+
+    .divisao_texto2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-top: 45px 
+    }
+
+    .divisao_texto2 .taste_texto {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .conteudo2 h1 {
+        font-size: 45px;
+    }
+
+    .conteudo2 p {
+        font-size: 20px;
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .titulo3 {
+        color: #FF8FBE;
+        font-size: 60px;
+        font-family: 'FredokaOne';
+        cursor: default;
+        display: flex;
+    }
+
+    .titulo4 {
+        display: none;
+    }
+
+    .baloes {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .balao {
+       width: 500px;
+       height: 330px;
+       font-size: 20px;
+    }
+
+    .balao2 {
+       width: 500px;
+       height: 330px;
+       font-size: 19px
+    }
+}
+
+@media (max-width: 1050px) {
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .banner4 img {
+        position: absolute;
+        top: 1050px;
+        height: 1000%;
+        width: 100%;
+        object-fit: cover;
+        pointer-events: none;
+        justify-content: center;
+        opacity: 40%;
+        display: flex;
+    }
+
+    .titulo3 {
+        color: #FF8FBE;
+        font-size: 45px;
+        font-family: 'FredokaOne';
+        cursor: default;
+        display: flex;
+    }
+
+    .titulo4 {
+        display: none;
+    }
+
+    .baloes {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .balao {
+       width: 400px;
+       height: 380px;
+       font-size: 18px;
+    }
+
+    .balao2 {
+       width: 400px;
+       height: 380px;
+       font-size: 19px
+    }
+} 
+
+@media (max-width: 915px) {
+    .menu {
+        position: absolute;
+        top: 0vh;
+        right: 0px;
+        width: 110vw;
+        height: 100vh;
+        background: rgb(255, 237, 248);
+        flex-direction: column;
+        text-align: left;
+        align-items: start;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .menu li {
+        margin-left: 10%;
+        opacity: 0;
+        list-style-type: none;
+        padding-top: 30px;
+    }
+
+    header .menu li a {
+        font-size: 30px;
+        list-style-type: none;
+    }
+
+    .menu_mobile {
+        display: block;
+        z-index: 1;
+        position: absolute;
+        margin-left: 90%;
+        margin-top: -1%;
+    }
+
+    .menu_mobile div {
+        width: 32px;
+        height: 5px;
+        border-radius: 70px;
+        background-color: #C49A6C;
+        margin: 8px;
+        transition: 0.3s;
+    }
+
+    .menu.active {
+        transform: translateX(0);
+    }
+
+    @keyframes menuliFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .menu_mobile.active .linha1 {
+        transform: rotate(-45deg) translate(-8px, 10px);
+    }
+
+    .menu_mobile.active .linha2 {
+        opacity: 0;
+    }
+
+    .menu_mobile.active .linha3 {
+        transform: rotate(45deg) translate(-7px, -11px);
+    }
+}
+
+@media (max-width: 850px) {
+    .about-us {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .banner4 img {
+        position: absolute;
+        top: 1250px;
+        height: 1000%;
+        width: 100%;
+        object-fit: cover;
+        pointer-events: none;
+        justify-content: center;
+        opacity: 40%;
+        display: flex;
+    }
+
+    .logoKoala10 img {
+        height: 420px;
+    }
+
+    .titulo3 {
+        color: #FF8FBE;
+        font-size: 40px;
+        font-family: 'FredokaOne';
+        cursor: default;
+        display: flex;
+    }
+
+    .titulo4 {
+        display: none;
+    }
+
+    .baloes {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .balao {
+       width: 450px;
+       height: 400px;
+       font-size: 19px;
+    }
+
+    .balao2 {
+       width: 450px;
+       height: 380px;
+       font-size: 20px
+    }
+
+    
+}  
+
+@media (max-width: 1575px) {
+    .card__img {
+        height: 400px;
+        width: 350px;
+        border-radius: 1.5rem;
+    }
+
+    
+    .card__data {
+        height: 300px;
+        width: 280px;
+        padding: 1.5rem 2rem;
+        position: absolute;
+        margin-inline: auto;
+        z-index: 2;
+    }
+
+    
+    .card__descricao {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: .25rem;
+        font-family: 'Inter';
+        line-height: 200%;
+        color: #ffffff;
+        text-align: justify;
+    }
+  
+      
+    .card__titulo {
+        font-size: 19px;
+        font-weight: 400;
+        color: var(--title-color);
+        margin-bottom: .75rem;
+        font-family: 'FredokaOne';
+        color: rgb(255, 248, 241);
+    }
+}
+
+@media (max-width: 1344px) {
+    .card__img {
+        height: 350px;
+        width: 300px;
+        border-radius: 1.5rem;
+    }
+
+    
+    .card__data {
+        height: 280px;
+        width: 250px;
+        padding: 1.5rem 2rem;
+        position: absolute;
+        margin-inline: auto;
+        z-index: 2;
+    }
+
+    
+    .card__descricao {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: .25rem;
+        font-family: 'Inter';
+        line-height: 200%;
+        color: #ffffff;
+        text-align: justify;
+    }
+  
+      
+    .card__titulo {
+        font-size: 19px;
+        font-weight: 400;
+        color: var(--title-color);
+        margin-bottom: .75rem;
+        font-family: 'FredokaOne';
+        color: rgb(255, 248, 241);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu_mobile {
+        display: block;
+        z-index: 1;
+        position: absolute;
+        margin-left: 80%;
+        margin-top: -1%;
+    }
+
+    .menu_mobile div {
+        height: 3px;
+    }
+
+    @keyframes menuliFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .menu_mobile.active .linha1 {
+        transform: rotate(-45deg) translate(-5px, 10px);
+    }
+
+    .menu_mobile.active .linha2 {
+        opacity: 0;
+    }
+
+    .menu_mobile.active .linha3 {
+        transform: rotate(45deg) translate(-5px, -11px);
+    }
+    
+
+    
+    header .logo img {
+        height: 40px;
+    }
+    
+    header.scrolling .logo img {
+        height: 40px;
+    }
+
+    .titulo {
+        font-size: 50px;
+    } 
+
+    .texto {
+        font-size: 15px;
+    }
+
+    strong.destaque {
+        font-size: 15px;
+    }
+
+    .logokoala img {
+        height: 400px;
+        display: block;
+    }
+
+    .banner2 img {
+        height: 60%;
+        width: 100%;
+    }
+
+    .btn-menu {
+        font-size: 12px;
+        width: 80%;
+        padding: 20px 20px 22px;
+    }
+
+    .divisao_texto2 .titulo2 {
+        font-size: 32px;
+    }
+
+    .divisao_texto2 p {
+        font-size: 16px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .taste_texto {
+        padding: 5px 5px 5px 5px;
+    }
+
+    .card__img {
+        height: 320px;
+        width: 280px;
+        border-radius: 1.5rem;
+    }
+
+    
+    .card__data {
+        height: 260px;
+        width: 250px;
+        padding: 1.5rem 2rem;
+        position: absolute;
+        margin-inline: auto;
+        z-index: 2;
+    }
+
+    
+    .card__descricao {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: .25rem;
+        font-family: 'Inter';
+        line-height: 200%;
+        color: #ffffff;
+        text-align: justify;
+    }
+  
+      
+    .card__titulo {
+        font-size: 19px;
+        font-weight: 400;
+        color: var(--title-color);
+        margin-bottom: .75rem;
+        font-family: 'FredokaOne';
+        color: rgb(255, 248, 241);
+    }
+
+    .divisao_2 {
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        background-color: #F8BDD6;
+        margin-top: 20%;
+    }
+
+    .titulo3 {
+        color: #FF8FBE;
+        font-size: 45px;
+        font-family: 'FredokaOne';
+        margin-bottom: 10px;
+        cursor: default;
+        display: flex;
+        
+    }
+
+    .titulo4 {
+        display: none;
+    }
+
+    .baloes {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    strong.destaque2 {
+        font-size: 22px;
+    }
+
+    .destaque3 {
+        display: flex;
+        color: #e6afc6;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .balao {
+       width: 290px;
+       height: 400px;
+       font-size: 15px;
+
+    }
+
+    .balao2 {
+       width: 299px;
+       height: 360px;
+       font-size: 15px
+    }
+
+    .logoKoala10 img {
+        height: 300px;
+        padding-right: 0px;
+    }
+
+    .banner4 img {
+        position: absolute;
+        top: 1200px;
+        height: 900%;
+        width: 100%;
+        object-fit: cover;
+        pointer-events: none;
+        justify-content: center;
+        opacity: 40%;
+        display: flex;
+    }
+
+    .footerContainer {
+        width: 100%;
+        height: 100%;
+        padding: 0px 20px 0px 20px;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 5%;
+    }
+
+    .footerContainer a {
+        padding: 12px;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footerBottom {
+        padding: 20px;
+        text-align: center;
+        line-height: 140%;
+    }
+}
