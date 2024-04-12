@@ -1,6 +1,6 @@
 <h1>
 <img src ="https://i.postimg.cc/QMc2n6Jh/Logo-nome-1.png" width = 800px;>
-<p>Um restaurante um tanto quanto diferente🍜🐨</p>
+<p>Um restaurante tanto quanto diferente🍜🐨</p>
 </h1>
 <h1>
 <img src = "https://i.postimg.cc/dVGKMTNv/Screen.png" width = 700px>
